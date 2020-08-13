@@ -1,6 +1,6 @@
 # hadolint-reviewdog
 
-hadolint with [Review Dog](https://github.com/reviewdog/reviewdog) inside
+hadolint with [Review Dog](https://github.com/reviewdog/reviewdog) inside. For use with [CI templates](https://github.com/jobtome-labs/ci-templates/).
 
 Based on [`hadolint/hadolint`](https://github.com/hadolint/hadolint) image.
 
