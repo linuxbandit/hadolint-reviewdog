@@ -1,7 +1,7 @@
 ARG HADOLINT_VERSION=v1.17.5-alpine
-ARG REVIEWDOG_VERSION=v0.9.17
-
 FROM hadolint/hadolint:${HADOLINT_VERSION}
+
+ARG REVIEWDOG_VERSION=v0.9.17
 
 LABEL maintainer="Fabrizio Bellicano <bellicaf@tcd.ie>" \
     image="linuxbandit/hadolint-reviewdog" \
